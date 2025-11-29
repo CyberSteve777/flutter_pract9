@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
 import 'screens/auth_screen.dart';
@@ -9,8 +7,6 @@ import 'screens/courses_screen.dart';
 import 'screens/teachers_screen.dart';
 import 'screens/grades_screen.dart';
 import 'screens/profile_screen.dart';
-
-import 'bloc/auth/auth_bloc.dart';
 
 class AppRouter {
   static GoRouter createRouter() {
